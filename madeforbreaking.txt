@@ -1,0 +1,5 @@
+SELECT * FROM `users` WHERE `username` = 'user_1' AND `password` = '' OR '1' = '1'
+
+*'; DELETE FROM fruits WHERE name = 'Apple'; --
+
+<script>window.location="https://www.w3schools.com/"</script>

@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{width: 100%;display: flex;flex-direction: column;align-items: center;background-color: blanchedalmond;}
+
+nav{width: 80%;display: flex;flex-direction: row;justify-content: space-around;}
+
+nav a{text-decoration: none;color: white;padding: 15px 25px;margin: 30px;font-size: 24px;font-weight: bold;border-radius: 10px;}
+/* .good{background-color: rgb(20, 153, 20);}
+.bad{background-color: rgb(206, 16, 16);} */
+.navigation{background-color: rgb(88, 24, 69);}
+nav a:hover{box-shadow: 0px 0px 5px 1px rgb(88, 24, 69);transition: 0.3s;}
+
+h1{margin: 30px 0px;font-size: 36px;font-weight: 300;}
+h4{font-size: 20px;font-weight: 300;border-bottom: 2px solid gainsboro;padding-bottom: 10px;}
+
+.phpoutput{width: 40%;font-size: 18px;font-weight: 300;}
+
+form{width: 40%;background-color: white;box-shadow: 0px 0px 5px 1px gray;border-radius: 20px;margin: 30px;padding: 30px;display: flex;flex-direction: column;}
+form input{margin: 20px 0px;font-size: 20px;padding: 20px;border: 2px solid gray;border-radius: 10px;}
+.submit{width: 30%;padding: 10px 20px;background-color: rgb(144, 12, 63);color: white;border: none;}
+
+.sqlMsgInjection p{padding: 10px 20px;background-color: aliceblue;border:2px solid rgb(144, 12, 63);font-size: 20px;}
+form .displaygood{background-color: green;border-radius: 10px;color: white;border-bottom: none;padding: 10px;text-align: center;margin-bottom: 20px;}
+form .displayerr{background-color: rgb(144, 12, 63);border-radius: 10px;color: white;border-bottom: none;padding: 10px;text-align: center;margin-bottom: 20px;}
+
+.displayfruit{display: flex;align-items: center;flex-direction: column;background-color: white;padding: 10px;border:2px solid rgb(144, 12, 63);width: 60%;}
+.displayfruit p{margin-top: 10px;line-height: 20px;text-align: center;}
+.displaydrinks li{font-size: 24px;margin-bottom: 10px;}
